@@ -13,6 +13,7 @@ project "spdlog"
 		"include/spdlog/cfg/*.h",
 		"include/spdlog/details/*.h",
 		"include/spdlog/fmt/*.h",
+		"include/spdlog/fmt/bundled/*.h",
 		"include/spdlog/sinks/*.h",
 		
 		"src/*.cpp"
@@ -20,8 +21,7 @@ project "spdlog"
 	
 	includedirs
 	{
-		"include",
-		"../fmt/include"
+		"include"
 	}
 	
 	filter "system:windows"
