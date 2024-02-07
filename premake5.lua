@@ -20,7 +20,8 @@ project "spdlog"
 	
 	includedirs
 	{
-		"include"
+		"include",
+		"../fmt/include"
 	}
 	
 	filter "system:windows"
