@@ -20,7 +20,7 @@ project "spdlog"
 	
 	includedirs
 	{
-		"include/spdlog"
+		"include"
 	}
 	
 	filter "system:windows"
